@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">SMPLR</string>
+    <string name="kick">Kick</string>
+    <string name="snare">Snare</string>
+    <string name="hho">HiHat O</string>
+    <string name="hhc">HiHat C</string>
+    <string name="tom1">Tom 1</string>
+    <string name="tom2">Tom 2</string>
+    <string name="crash">Crash</string>
+    <string name="ride">Ride</string>
+    <string name="volume">Volume</string>
+    <string name="pan">Pan</string>
 </resources>
