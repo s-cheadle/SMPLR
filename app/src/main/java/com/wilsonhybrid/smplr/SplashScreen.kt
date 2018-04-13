@@ -9,7 +9,6 @@ import android.widget.ImageView
 import java.util.*
 import kotlin.concurrent.schedule
 
-
 class SplashScreen : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,9 +19,8 @@ class SplashScreen : AppCompatActivity() {
         val animation: Animation = AnimationUtils.loadAnimation(this.applicationContext,R.anim.mytransitions)
         imageView.startAnimation(animation)
 
-        Timer().schedule(10000){
-           startActivity(Intent())
+        Timer().schedule(3000){
+            startActivity(Intent(this@SplashScreen,MainActivity::class.java))
         }
     }
-
 }

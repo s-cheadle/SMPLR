@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -7,149 +8,189 @@
 
     <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
         android:layout_weight="1"
-
+        android:layout_gravity="center_horizontal"
         android:padding="8dp">
 
-        <TableRow android:padding="8dp">
+        <TableRow
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:padding="8dp">
 
             <Button
-                android:layout_width="@dimen/box_size"
+                android:id="@+id/trigger1"
+                style="@style/Base.Widget.AppCompat.ImageButton"
                 android:layout_height="@dimen/box_size"
-                android:padding="8dp"
-                android:text="@string/kick" />
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/holo_green_light" />
 
             <Button
-                android:layout_width="@dimen/box_size"
+                android:id="@+id/trigger2"
+                style="@style/Base.Widget.AppCompat.ImageButton"
                 android:layout_height="@dimen/box_size"
-                android:padding="8dp"
-                android:text="@string/snare" />
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/holo_green_light" />
 
             <Button
-                android:layout_width="@dimen/box_size"
+                android:id="@+id/trigger3"
+                style="@style/Base.Widget.AppCompat.ImageButton"
                 android:layout_height="@dimen/box_size"
-                android:padding="8dp"
-                android:text="@string/kick" />
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/holo_green_light" />
 
             <Button
-                android:layout_width="@dimen/box_size"
+                android:id="@+id/trigger4"
+                style="@style/Base.Widget.AppCompat.ImageButton"
                 android:layout_height="@dimen/box_size"
-                android:padding="8dp"
-                android:text="@string/snare" />
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/holo_green_light" />
         </TableRow>
 
-        <TableRow android:padding="8dp">
+
+        <TableRow
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:padding="8dp">
 
             <Button
-                android:layout_width="@dimen/box_size"
+                android:id="@+id/trigger5"
+                style="@style/Base.Widget.AppCompat.ImageButton"
                 android:layout_height="@dimen/box_size"
-                android:padding="8dp"
-                android:text="@string/hho" />
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/holo_green_light" />
 
             <Button
-                android:layout_width="@dimen/box_size"
+                android:id="@+id/trigger6"
+                style="@style/Base.Widget.AppCompat.ImageButton"
                 android:layout_height="@dimen/box_size"
-                android:padding="8dp"
-                android:text="@string/hhc" />
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/holo_green_light" />
 
             <Button
-                android:layout_width="@dimen/box_size"
+                android:id="@+id/trigger7"
+                style="@style/Base.Widget.AppCompat.ImageButton"
                 android:layout_height="@dimen/box_size"
-                android:padding="8dp"
-                android:text="@string/kick" />
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/holo_green_light" />
 
             <Button
-                android:layout_width="@dimen/box_size"
+                android:id="@+id/trigger8"
+                style="@style/Base.Widget.AppCompat.ImageButton"
                 android:layout_height="@dimen/box_size"
-                android:padding="8dp"
-                android:text="@string/snare" />
-
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/holo_green_light" />
         </TableRow>
 
-        <TableRow android:padding="8dp">
+        <TableRow
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:padding="8dp">
 
             <Button
-                android:layout_width="@dimen/box_size"
+                android:id="@+id/trigger9"
+                style="@style/Base.Widget.AppCompat.ImageButton"
                 android:layout_height="@dimen/box_size"
-                android:padding="8dp"
-                android:text="@string/tom1" />
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/holo_green_light" />
 
             <Button
-                android:layout_width="@dimen/box_size"
+                android:id="@+id/trigger10"
+                style="@style/Base.Widget.AppCompat.ImageButton"
                 android:layout_height="@dimen/box_size"
-                android:padding="8dp"
-                android:text="@string/tom2" />
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/holo_green_light" />
 
             <Button
-                android:layout_width="@dimen/box_size"
+                android:id="@+id/trigger11"
+                style="@style/Base.Widget.AppCompat.ImageButton"
                 android:layout_height="@dimen/box_size"
-                android:padding="8dp"
-                android:text="@string/kick" />
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/holo_green_light" />
 
             <Button
-                android:layout_width="@dimen/box_size"
+                android:id="@+id/trigger12"
+                style="@style/Base.Widget.AppCompat.ImageButton"
                 android:layout_height="@dimen/box_size"
-                android:padding="8dp"
-                android:text="@string/snare" />
-
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/holo_green_light" />
         </TableRow>
 
-        <TableRow android:padding="8dp">
+
+        <TableRow
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:padding="8dp">
 
             <Button
-                android:layout_width="@dimen/box_size"
+                android:id="@+id/trigger13"
+                style="@style/Base.Widget.AppCompat.ImageButton"
                 android:layout_height="@dimen/box_size"
-                android:padding="8dp"
-                android:text="@string/crash" />
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/holo_green_light" />
 
             <Button
-                android:layout_width="@dimen/box_size"
+                android:id="@+id/trigger14"
+                style="@style/Base.Widget.AppCompat.ImageButton"
                 android:layout_height="@dimen/box_size"
-                android:padding="8dp"
-                android:text="@string/ride" />
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/holo_green_light" />
 
             <Button
-                android:layout_width="@dimen/box_size"
+                android:id="@+id/trigger15"
+                style="@style/Base.Widget.AppCompat.ImageButton"
                 android:layout_height="@dimen/box_size"
-                android:padding="8dp"
-                android:text="@string/kick" />
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/holo_green_light" />
 
             <Button
-                android:layout_width="@dimen/box_size"
+                android:id="@+id/trigger16"
+                style="@style/Base.Widget.AppCompat.ImageButton"
                 android:layout_height="@dimen/box_size"
-                android:padding="8dp"
-                android:text="@string/snare" />
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/holo_green_light" />
         </TableRow>
 
-        <TableRow android:padding="8dp">
+        <ImageView
+            android:contentDescription="@string/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:src="@drawable/logo"
+            android:padding="8dp"/>
+
+        <TableRow android:layout_gravity="center_horizontal"
+            android:padding="8dp">
 
             <TextView
                 android:layout_weight="0.2"
                 android:text="@string/volume" />
 
             <SeekBar
+                style="@android:style/Widget.Material.SeekBar"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:elevation="9dp"
+                android:max="100"
+                android:progress="50" />
         </TableRow>
 
-        <TableRow android:padding="8dp">
+
+        <TableRow android:layout_gravity="center_horizontal"
+            android:padding="8dp">
 
             <TextView
                 android:layout_weight="0.2"
                 android:text="@string/pan" />
 
             <SeekBar
+                style="@android:style/Widget.Material.Light.SeekBar"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+
+                android:elevation="8dp"
+                android:max="100"
+                android:progress="50" />
         </TableRow>
 
     </TableLayout>
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:src="@drawable/logo" />
 </LinearLayout>
-
-
