@@ -15,111 +15,127 @@
         <TableRow android:padding="8dp">
 
             <Button
+                android:id="@+id/button1"
                 android:layout_width="@dimen/box_size"
                 android:layout_height="@dimen/box_size"
                 android:padding="8dp"
                 android:text="@string/kick" />
 
             <Button
+                android:id="@+id/button2"
                 android:layout_width="@dimen/box_size"
                 android:layout_height="@dimen/box_size"
                 android:padding="8dp"
                 android:text="@string/snare" />
 
             <Button
-                android:layout_width="@dimen/box_size"
-                android:layout_height="@dimen/box_size"
-                android:padding="8dp"
-                android:text="@string/kick" />
-
-            <Button
-                android:layout_width="@dimen/box_size"
-                android:layout_height="@dimen/box_size"
-                android:padding="8dp"
-                android:text="@string/snare" />
-        </TableRow>
-
-        <TableRow android:padding="8dp">
-
-            <Button
-                android:layout_width="@dimen/box_size"
-                android:layout_height="@dimen/box_size"
-                android:padding="8dp"
-                android:text="@string/hho" />
-
-            <Button
+                android:id="@+id/button3"
                 android:layout_width="@dimen/box_size"
                 android:layout_height="@dimen/box_size"
                 android:padding="8dp"
                 android:text="@string/hhc" />
 
             <Button
+                android:id="@+id/button4"
                 android:layout_width="@dimen/box_size"
                 android:layout_height="@dimen/box_size"
                 android:padding="8dp"
-                android:text="@string/kick" />
-
-            <Button
-                android:layout_width="@dimen/box_size"
-                android:layout_height="@dimen/box_size"
-                android:padding="8dp"
-                android:text="@string/snare" />
-
+                android:text="@string/hho" />
         </TableRow>
 
         <TableRow android:padding="8dp">
 
             <Button
+                android:id="@+id/button5"
                 android:layout_width="@dimen/box_size"
                 android:layout_height="@dimen/box_size"
                 android:padding="8dp"
                 android:text="@string/tom1" />
 
             <Button
+                android:id="@+id/button6"
                 android:layout_width="@dimen/box_size"
                 android:layout_height="@dimen/box_size"
                 android:padding="8dp"
                 android:text="@string/tom2" />
 
             <Button
+                android:id="@+id/button7"
                 android:layout_width="@dimen/box_size"
                 android:layout_height="@dimen/box_size"
                 android:padding="8dp"
-                android:text="@string/kick" />
+                android:text="@string/tom3" />
 
             <Button
+                android:id="@+id/button8"
                 android:layout_width="@dimen/box_size"
                 android:layout_height="@dimen/box_size"
                 android:padding="8dp"
-                android:text="@string/snare" />
+                android:text="@string/tom4" />
 
         </TableRow>
 
         <TableRow android:padding="8dp">
 
             <Button
+                android:id="@+id/button9"
                 android:layout_width="@dimen/box_size"
                 android:layout_height="@dimen/box_size"
                 android:padding="8dp"
                 android:text="@string/crash" />
 
             <Button
+                android:id="@+id/button10"
+                android:layout_width="@dimen/box_size"
+                android:layout_height="@dimen/box_size"
+                android:padding="8dp"
+                android:text="@string/crash2" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="@dimen/box_size"
+                android:layout_height="@dimen/box_size"
+                android:padding="8dp"
+                android:text="@string/splash" />
+
+            <Button
+                android:id="@+id/button12"
                 android:layout_width="@dimen/box_size"
                 android:layout_height="@dimen/box_size"
                 android:padding="8dp"
                 android:text="@string/ride" />
 
-            <Button
-                android:layout_width="@dimen/box_size"
-                android:layout_height="@dimen/box_size"
-                android:padding="8dp"
-                android:text="@string/kick" />
+        </TableRow>
+
+        <TableRow android:padding="8dp">
 
             <Button
+                android:id="@+id/button13"
                 android:layout_width="@dimen/box_size"
                 android:layout_height="@dimen/box_size"
                 android:padding="8dp"
-                android:text="@string/snare" />
+                android:text="@string/misc" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="@dimen/box_size"
+                android:layout_height="@dimen/box_size"
+                android:padding="8dp"
+                android:text="@string/misc2" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="@dimen/box_size"
+                android:layout_height="@dimen/box_size"
+                android:padding="8dp"
+                android:text="@string/misc3" />
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="@dimen/box_size"
+                android:layout_height="@dimen/box_size"
+                android:padding="8dp"
+                android:text="@string/misc4" />
         </TableRow>
 
         <TableRow android:padding="8dp">

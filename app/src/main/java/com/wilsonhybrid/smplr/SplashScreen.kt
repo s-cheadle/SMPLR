@@ -21,7 +21,8 @@ class SplashScreen : AppCompatActivity() {
         imageView.startAnimation(animation)
 
         Timer().schedule(10000){
-           startActivity(Intent())
+
+            startActivity( Intent(applicationContext, MainActivity::class.java))
         }
     }
 

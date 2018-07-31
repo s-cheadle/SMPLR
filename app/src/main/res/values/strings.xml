@@ -6,8 +6,16 @@
     <string name="hhc">HiHat C</string>
     <string name="tom1">Tom 1</string>
     <string name="tom2">Tom 2</string>
-    <string name="crash">Crash</string>
+    <string name="tom3">Tom 3</string>
+    <string name="tom4">Tom 4</string>
+    <string name="crash">Crash 1</string>
+    <string name="crash2">Crash 2</string>
     <string name="ride">Ride</string>
+    <string name="splash">Splash</string>
+    <string name="misc">Misc 1</string>
+    <string name="misc2">Misc 2</string>
+    <string name="misc3">Misc 3</string>
+    <string name="misc4">Misc 4</string>
     <string name="volume">Volume</string>
     <string name="pan">Pan</string>
 </resources>
